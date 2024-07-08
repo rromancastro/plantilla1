@@ -154,7 +154,7 @@ footer {
   gap: 10px;
 }
 .redesFooter img {
-  width: 100%;
+  width: 30px;
   opacity: 50%;
   filter: brightness(80%);
 }
