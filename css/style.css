@@ -19,12 +19,12 @@
   margin: 20px;
   border-radius: 10px;
   padding: 10px;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.75);
 }
 .itemIndex img {
-  height: 70px;
+  height: 60px;
   width: 40%;
   object-fit: cover;
   border-radius: 5px;
@@ -71,15 +71,16 @@ nav {
 
 .logo {
   height: 50px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5607843137);
   border-radius: 50%;
 }
 
 .dropMenu {
   background-color: white;
-  padding: 4px;
-  border-radius: 15%;
+  padding: 5px 10px;
+  border-radius: 5px;
   transition: 0.5s;
+  border: 1.5px rgba(0, 0, 0, 0.5607843137) solid;
 }
 
 .dropMenu:focus {
@@ -89,16 +90,15 @@ nav {
 }
 
 .cardProducto {
-  width: 43%;
+  width: 40%;
   background-color: rgb(240, 240, 240);
   border-radius: 2%;
 }
 .cardProducto img {
   width: 90%;
   border-radius: 2% 2% 0 0;
-  height: 40%;
+  height: 35%;
   object-fit: cover;
-  margin: 5%;
 }
 
 .infoProducto {
