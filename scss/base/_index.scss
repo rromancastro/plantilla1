@@ -2,9 +2,9 @@
     color: white;
     font-family: $font3;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
-    margin: 15px;
+    margin: 25px;
 }
 
 .itemIndex {
@@ -17,8 +17,9 @@
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.75);
+    text-decoration: none;
     img {
         height: 60px;
         width: 40%;
@@ -39,11 +40,14 @@
         font-size: 16px;
         font-weight: 700;
         margin: 0;
+        color: black;
+        text-decoration: underline black;
     }
     p {
         font-family: $font1;
         font-size: 13px;
         font-weight: 300;
         margin: 0;
+        color: black;
     }
 }
