@@ -163,6 +163,13 @@ nav {
   height: 45%;
 }
 
+.bS {
+  height: 200px;
+}
+.bS img {
+  height: 50%;
+}
+
 footer {
   background-color: #180f06;
   width: 100%;
