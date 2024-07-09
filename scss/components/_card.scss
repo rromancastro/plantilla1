@@ -5,7 +5,6 @@
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     padding: 8px;
     img {
         width: 100%;
@@ -41,5 +40,11 @@
     font-family: $font1;
     font-weight: 700;
     font-size: 15px;
-    margin-bottom: 10px;
+}
+
+.pastas {
+    height: 200px;
+    img {
+        height: 45%;
+    }
 }

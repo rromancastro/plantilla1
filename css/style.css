@@ -55,7 +55,7 @@
   color: black;
 }
 
-.milanesaTitle {
+.productosTitle {
   text-align: center;
   font-family: "Dancing Script", cursive;
   color: white;
@@ -63,7 +63,7 @@
   margin: 20px;
 }
 
-.milanesaSection {
+.productosSection {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -119,7 +119,6 @@ nav {
   border-radius: 5px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   padding: 8px;
 }
 .cardProducto img {
@@ -155,7 +154,13 @@ nav {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 15px;
-  margin-bottom: 10px;
+}
+
+.pastas {
+  height: 200px;
+}
+.pastas img {
+  height: 45%;
 }
 
 footer {
