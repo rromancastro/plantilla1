@@ -16,9 +16,13 @@
     border: none;
 }
 
-body {
+html, body {
     background-image: url(../multimedia/backgrounds/back2.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 u {

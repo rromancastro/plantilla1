@@ -1,14 +1,12 @@
 footer {
     background-color: #180f06;
-    height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     gap: 5px;
-    position: relative;
-    bottom: 0;
+    align-self: flex-end;
 }
 
 .logoFooter {
