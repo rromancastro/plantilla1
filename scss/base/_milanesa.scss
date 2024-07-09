@@ -1,0 +1,17 @@
+.milanesaTitle {
+    text-align: center;
+    font-family: $font3;
+    color: white;
+    font-size: 45px;
+    margin: 20px;
+}
+
+.milanesaSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    padding-top: 0;
+}
