@@ -73,6 +73,11 @@
   padding-top: 0;
 }
 
+@media (min-width: 425px) {
+  .productosSection {
+    justify-content: flex-start;
+  }
+}
 .postNav {
   height: 20px;
   background-color: rgb(219, 219, 219);
@@ -112,6 +117,11 @@ nav {
   -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
 }
 
+@media (min-width: 425px) {
+  nav {
+    padding: 15px;
+  }
+}
 .cardProducto {
   width: 45%;
   height: 250px;
@@ -173,6 +183,15 @@ nav {
   height: 50%;
 }
 
+@media (min-width: 425px) {
+  .cardProducto {
+    width: 23%;
+    height: 300px;
+  }
+  .cardProducto img {
+    height: 50%;
+  }
+}
 footer {
   background-color: #180f06;
   width: 100%;

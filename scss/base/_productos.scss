@@ -15,3 +15,9 @@
     padding: 30px;
     padding-top: 0;
 }
+
+@media(min-width: 425px) {
+    .productosSection {
+        justify-content: flex-start;
+    }
+}

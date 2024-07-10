@@ -7,8 +7,8 @@
     flex-wrap: wrap;
     padding: 8px;
     box-shadow: -5px 5px 0px 0px #180f06;
--webkit-box-shadow: -5px 5px 0px 0px #180f06;
--moz-box-shadow: -5px 5px 0px 0px #180f06;
+    -webkit-box-shadow: -5px 5px 0px 0px #180f06;
+    -moz-box-shadow: -5px 5px 0px 0px #180f06;
     img {
         width: 100%;
         border-radius: 5px;
@@ -56,5 +56,15 @@
     height: 200px;
     img {
         height: 50%;
+    }
+}
+
+@media(min-width: 425px) {
+    .cardProducto {
+        width: 23%;
+        height: 300px;
+        img {
+            height: 50%;
+        }
     }
 }
